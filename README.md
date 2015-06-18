@@ -7,8 +7,8 @@ OpenGLを使って、3次元上で現時刻での天体(赤)・地球(青)・太
 $ ruby objPlot.rb -r <天体のra> -d <天体のdec> 
 
 $ ruby objPlot.rb -h
-Usage: objPlot [options]
-    -r, --ra X                       Right Accension [deg]
-    -d, --dec X                      Declination [deg]
-    -s, --stop                       Stop Spin
+  Usage: objPlot [options]
+      -r, --ra X                       Right Accension [deg]
+      -d, --dec X                      Declination [deg]
+      -s, --stop                       Stop Spin
 
