@@ -12,3 +12,4 @@ Usage: objPlot [options]
     -d, --dec X                      Declination [deg]  
     -s, --stop                       Stop Spin  
 ```
+
