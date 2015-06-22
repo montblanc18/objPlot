@@ -1,11 +1,10 @@
-#概要
-OpenGLを使って、3次元上で現時刻での天体(赤)・地球(青)・太陽(黄色)を球体で表現する。  
-また、地球上の指定した座標(黄色)を同時に描画する。  
-一番大きな水色の球は、天球面を表現している。
+#objPlot
+"objPlot" is a ruby program which draws the position of Sun(yellow sphere), Earth(blue sphere) and Object(red sphere) in 3D image with OpenGL.
+A sky blue sphere shows a celestial sphere, and a yellow point shows an observatory you chose.
 
-#使い方
+#How to use
 ```bash
-$ ruby objPlot.rb -r <天体のra> -d <天体のdec>  
+$ ruby objPlot.rb -r <the ra of object> -d <the dec of object>  
 $ ruby objPlot.rb -h  
 Usage: objPlot [options]  
     -r, --ra X                       Right Accension [deg]  
