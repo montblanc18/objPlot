@@ -2,6 +2,8 @@
 "objPlot" is a ruby program which draws the position of Sun(yellow sphere), Earth(blue sphere) and Object(red sphere) in 3D image with OpenGL.
 A sky blue sphere shows a celestial sphere, and a yellow point shows an observatory you chose.
 
+![running](docs/fig/running.png)
+
 # Setup
 ```bash
 $ gem install opengl glut glu
